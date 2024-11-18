@@ -28,7 +28,7 @@ function Progrmas() {
         {images.map((item,index) => (
           <div key={index} className={`flex flex-col gap-[20px] ${index % 2 === 1 ? 'translate-y-[12%]' : ''}`}>
             {/* <img src={item} alt="photo" /> */}
-            <Image src={item} width={320} height={290} className='rounded-[25px] border-[1px] border-red-500' />
+            <Image src={item} width={320} height={290}  alt='image'  className='rounded-[25px] border-[1px] border-red-500' />
             <div>
               <p className='text-gray-300 font-anton text-[25px]'>{programs[index]}</p>
               <p className='text-gray-300'>{days[index]}</p>

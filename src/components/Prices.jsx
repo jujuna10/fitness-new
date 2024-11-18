@@ -18,7 +18,7 @@ function Prices() {
             <div className='flex flex-col gap-32'>
                 <div className='flex flex-col gap-7'>
                     <div className='w-[50px] h-[50px] bg-[rgb(144,254,0)] flex justify-center items-center rounded-[50%]'>
-                        <Image src='/star.png' width={35} height={35} />
+                        <Image src='/star.png' width={35} height={35}  alt='image'  />
                     </div>
                     <p className='text-[35px] text-gray-300 font-anton'>Success Stories</p>
                 </div>
@@ -33,11 +33,11 @@ function Prices() {
                         <p className='text-gray-300 text-[17px]'>CEO of Starbucks</p>
                     </div>
                     <div className='flex gap-2'>
-                        <Image src='/star (1).png' width={20} height={20} />
-                        <Image src='/star (1).png' width={20} height={20} />
-                        <Image src='/star (1).png' width={20} height={20} />
-                        <Image src='/star (1).png' width={20} height={20} />
-                        <Image src='/star.png' width={20} height={20} className='invert' />
+                        <Image src='/star (1).png' width={20} height={20}  alt='image'  />
+                        <Image src='/star (1).png' width={20} height={20}  alt='image'  />
+                        <Image src='/star (1).png' width={20} height={20}  alt='image'  />
+                        <Image src='/star (1).png' width={20} height={20}  alt='image'  />
+                        <Image src='/star.png' width={20} height={20}  alt='image'  className='invert' />
                     </div>
 
 

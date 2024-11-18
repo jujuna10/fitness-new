@@ -40,7 +40,7 @@ function Features() {
             {name.map((item,index) => (
                 <div key={index} className={`bg-[rgb(24,25,30)] p-[25px] h-[520px] rounded-[50px] flex flex-col gap-[20px] ${index === indexx ? 'translate-y-[-50px] duration-500' : ''} `}>
                     <div className={`rounded-[50%] border-[1px] border-white w-[80px] h-[80px] flex justify-center items-center ${index === indexx ? 'border-yellow-400' : ''}`}>
-                        <Image src={images[index]} alt={item} width={35} height={35} className='invert' />
+                        <Image src={images[index]} alt={item} width={35} height={35}  className='invert' />
                     </div>
                     <div>
                         <p className='text-[35px] text-gray-300 font-anton'>{item}</p>
@@ -48,7 +48,7 @@ function Features() {
                     </div>
                     <div className='flex justify-end translate-y-[250%]'>
                         <div className={`rounded-[50%] border-[1px] border-white w-[55px] h-[55px] flex justify-center ${index === indexx ? 'border-yellow-400' : ''}  `}>
-                            <Image src='/next.png' width={45} height={35} style={{ filter: 'invert(100%) sepia(100%) saturate(100000%) hue-rotate(0deg) brightness(100%)' }}  />
+                            <Image src='/next.png' width={45} height={35}  alt='image'  style={{ filter: 'invert(100%) sepia(100%) saturate(100000%) hue-rotate(0deg) brightness(100%)' }}  />
                         </div>
                     </div>
                 </div>
