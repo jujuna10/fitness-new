@@ -47,7 +47,7 @@ function Prices() {
 
             {/* second */}
             <div className='flex items-end'>
-                <Image src='/man.png' width={200} height={200} />
+                <Image src='/man.png' width={200} height={200} alt='alt' />
 
             </div>
         </div>
@@ -57,7 +57,7 @@ function Prices() {
             <h1 className='text-gray-300 font-anton text-[55px] max-w-72'>Best Training Plan For You</h1>
             <div className='flex flex-col gap-14'>
                 {names.map((item,index) => (
-                    <div className='flex gap-[200px] justify-around items-start bg-[rgb(24,25,30)] h-[150px] rounded-[50px] p-[20px]'>
+                    <div key={index} className='flex gap-[200px] justify-around items-start bg-[rgb(24,25,30)] h-[150px] rounded-[50px] p-[20px]'>
                         <p className={`text-yellow-500 font-bold ${prices[index] === prices[0] ? 'w-[150px] bg-yellow-500 !text-black rounded-[50px] p-[18px]' : ''}`}>{prices[index]}</p>
                         <div className='flex flex-col gap-2 justify-center'>
                             <p className='text-gray-300 font-anton text-[22px] text-right pr-10'>{item}</p>
