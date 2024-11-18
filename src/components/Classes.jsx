@@ -9,7 +9,7 @@ function Classes() {
         <div className='flex justify-around gap-[450px] pr-[7%]'>
             <div className='translate-x-[-50px]'>
                 <h1 className='text-gray-300 font-anton text-[45px]'>Our Classes</h1>
-                <p className='text-gray-300 max-w-96'>"Our classes cater to all ages and preferences. You and your child can safely enjoy the facilities together. Whether young or old, our programs welcome everyone, making fitness a family affair."</p>
+                <p className='text-gray-300 max-w-96'>&quot; Our classes cater to all ages and preferences. You and your child can safely enjoy the facilities together. Whether young or old, our programs welcome everyone, making fitness a family affair.&quot;</p>
             </div>
 
             <div className='flex flex-col gap-5 w-[60%]'>

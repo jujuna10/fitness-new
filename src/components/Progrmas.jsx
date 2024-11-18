@@ -26,7 +26,7 @@ function Progrmas() {
         </div>
       <div className='flex gap-[100px] justify-center'>
         {images.map((item,index) => (
-          <div className={`flex flex-col gap-[20px] ${index % 2 === 1 ? 'translate-y-[12%]' : ''}`}>
+          <div key={index} className={`flex flex-col gap-[20px] ${index % 2 === 1 ? 'translate-y-[12%]' : ''}`}>
             {/* <img src={item} alt="photo" /> */}
             <Image src={item} width={320} height={290} className='rounded-[25px] border-[1px] border-red-500' />
             <div>
