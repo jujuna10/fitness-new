@@ -24,7 +24,7 @@ function Prices() {
                 </div>
 
                 <div>
-                    <p className='text-gray-300 max-w-96'>"I reached my fitness goals faster than ever with tailored workouts. Wrist notifications keep me on track, even during sessions. Absolutely love this feature and how it enhances my experience"</p>
+                    <p className='text-gray-300 max-w-96'>&quote; I reached my fitness goals faster than ever with tailored workouts. Wrist notifications keep me on track, even during sessions. Absolutely love this feature and how it enhances my experience &quote;</p>
                 </div>
 
                 <div className='flex flex-col gap-2'>
